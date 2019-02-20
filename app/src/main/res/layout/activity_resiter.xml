@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EA80FC"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EA80FC"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/kayit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/kayit_olun"
+        android:textColor="@android:color/background_light"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/name"
+        android:textColor="@android:color/background_light"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="3dp"
+        android:ems="10"
+        android:hint="@string/hintforname"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/holo_red_light"
+        android:textSize="13sp"
+        />
+
+    <TextView
+        android:id="@+id/textSurname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/Surname"
+        android:textColor="@android:color/background_light"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/hintforsurnam"
+        android:inputType="text"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/holo_red_light"
+        android:textSize="13sp"
+         />
+
+    <TextView
+        android:id="@+id/textTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/phonenumber"
+        android:textColor="@android:color/background_light"
+        android:textSize="17sp"
+        android:textStyle="bold"
+         />
+
+    <EditText
+        android:id="@+id/editTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/hintforphone"
+        android:inputType="number"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/holo_red_light"
+        android:textSize="13sp"
+        />
+
+    <TextView
+        android:id="@+id/textTarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/date"
+        android:textColor="@android:color/background_light"
+        android:textSize="17sp"
+        android:textStyle="bold"
+       />
+
+    <EditText
+        android:id="@+id/editTextdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="3dp"
+        android:ems="10"
+        android:hint="@string/hintfordate"
+        android:inputType="none"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/holo_red_light"
+        android:textSize="13sp"
+         />
+
+    <TextView
+        android:id="@+id/textTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/time"
+        android:textColor="@android:color/background_light"
+        android:textSize="17sp"
+        android:textStyle="bold"
+         />
+
+    <EditText
+        android:id="@+id/ediTextTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="3dp"
+        android:ems="10"
+        android:hint="@string/hintfortime"
+        android:inputType="none"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/holo_red_light"
+        android:textSize="13sp"
+        />
+
+    <TextView
+        android:id="@+id/rezervationTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/rezervationTime"
+        android:textColor="@android:color/background_light"
+        android:textSize="17sp"
+        android:textStyle="bold"
+         />
+
+    <EditText
+        android:id="@+id/ediTextRezervationTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="3dp"
+        android:ems="10"
+        android:hint="@string/hintforRezervationtime"
+        android:inputType="none"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/holo_red_light"
+        android:textSize="13sp"
+       />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/registerbt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/button_save"
+        android:layout_marginTop="35dp"
+         />
+
+
+    <Button
+        android:id="@+id/cancelbt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/button_cancel"
+        android:layout_marginTop="35dp"
+         />
+
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>

@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">BookingApplication</string>
+    <string name="textview">Hoş Geldiniz</string>
+    <string name="Sbutton">Muşteri</string>
+    <string name="Barberbutton">Berber</string>
+    <string name="textmessage">Kisa mesaj gönder</string>
+    <string name="background">Yurdumbarbershop</string>
+    <string name="findLocation">Bul</string>
+    <string name="textMessage">Kısa mesaj gönder</string>
+    <string name="clientbeard">Sakal</string>
+    <string name="styles">çeşitler</string>
+    // strings for bear tream///////////////////////////////////////////////////////
+
+    <string name="bearTreamImage"></string>
+    <string name="beardTream">Sakal tıraş </string>
+    <string name="beardTreamprice">20TL</string>
+    <string name="beardTreamBook">Rezervasyon</string>
+    <string name="beardTreamCancel">İptal</string>
+
+    // strings for hair tream///////////////////////////////////////////////////////
+    <string name="hairTreamImage"></string>
+    <string name="hairTream">Saç tıraş </string>
+    <string name="hairTreamPrice">20TL</string>
+    <string name="hairTreamBook">Rezervasyon</string>
+    <string name="hairTreamCancel">İptal</string>
+    <string name="rowcontent">TextView</string>
+    <string name="imagebaber">TODO</string>
+    // strings for hair wash///////////////////////////////////////////////////////
+
+    <string name="hairWashImage"></string>
+    <string name="hairWash">Saç Yıkama</string>
+    <string name="hairWashPrice">20TL</string>
+    <string name="hairWashBook">Rezervasyon</string>
+    <string name="hairWashCancel">İptal</string>
+    // strings for mask///////////////////////////////////////////////////////
+
+    <string name="maskImage"></string>
+    <string name="mask">Maske</string>
+    <string name="maskPrice">20TL</string>
+    <string name="maskBook">Rezervasyon</string>
+    <string name="maskCancel">İptal</string>
+    // strings for ear waxing///////////////////////////////////////////////////////
+
+    <string name="earWaxingImage"></string>
+    <string name="earWaxing">Kulak Ağda</string>
+    <string name="earWaxingPrice">20TL</string>
+    <string name="earWaxingBook">Rezervasyon</string>
+    <string name="earWaxingCancel">İptal</string>
+    // strings for time and date picker///////////////////////////////////////////////////////
+
+    <string name="selectTime">Zaman Seç</string>
+    <string name="SelectDate">Tarih Seç</string>
+    <string name="selectDate">Tarih Seç</string>
+    // register dialog//
+    <string name="kayit_olun">Kayit olun</string>
+    <string name="hintforname">Adınızı yazın</string>
+    <string name="name">Adı:</string>
+    <string name="hintforsurnam">Soyadınız Yazın</string>
+    <string name="Surname">Soyadı:</string>
+    <string name="hintforphone">Telfun nomaranızı yazın</string>
+    <string name="phonenumber">Tel:</string>
+    <string name="date">Tarih:</string>
+    <string name="hintfordate">Tarih seçin</string>
+    <string name="hintfortime">Zamanı yazın</string>
+    <string name="time">Zaman:</string>
+    <string name="button_save">Kayit</string>
+    <string name="button_cancel">Iptal</string>
+    <string name="todo">shop</string>
+    <string name="call">Ara</string>
+    <string name="message">mesaj</string>
+    <string name="shop">shop</string>
+    <string name="rezervationTime">Rezervatsiyon Zamanı:</string>
+    <string name="hintforRezervationtime">Rezervatsiyon Zamanı yazın</string>
+    <string name="IsActive">Canlı:</string>
+
+</resources>
