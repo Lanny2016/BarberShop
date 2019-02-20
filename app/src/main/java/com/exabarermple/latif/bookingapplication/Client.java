@@ -77,7 +77,7 @@ public class Client extends Activity {
         } );
 
         ///////////// loving by icon ////////
-
+          
         likeIcon = (ImageView) findViewById ( R.id.favorite );
         likeIcon.setOnClickListener ( new View.OnClickListener () {
             @Override
