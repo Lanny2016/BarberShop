@@ -22,7 +22,9 @@ public class Client extends Activity {
     ImageView messageIcon;
     ImageView likeIcon;
     ImageView locationIcon;
-
+    Double myLatitude = 40.796088;
+    Double myLongitude = 29.401911;
+    String labelLocation = "cuteSafe Techology";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -83,6 +85,19 @@ public class Client extends Activity {
             @Override
             public void onClick(View v) {
 
+             ////// code on favorite  will be added
+            }
+        } );
+
+        //  location by pressing locatio icon
+
+        locationIcon = (ImageView) findViewById ( R.id.location );
+        locationIcon.setOnClickListener ( new View.OnClickListener () {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:<" + myLatitude  + ">,<" + myLongitude + ">?q=<" + myLatitude  + ">,<" + myLongitude + ">(" + labelLocation + ")"));
+                startActivity(intent);
             }
         } );
 
