@@ -11,7 +11,7 @@ tools:context=".Barber">
 <android.support.v4.widget.NestedScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
+\\Githuba pushlanan kodlar test edildi.
     <TextView
         android:id="@+id/TextViewResult"
         android:layout_width="wrap_content"
